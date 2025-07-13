@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseduo Styles</title>
+    <style>
+        h3{
+            color: peru;
+        }
+        h3:hover{
+            color: blue;
+            background-color: rgb(170, 204, 204);
+            font-size: 50px;
+
+        }
+        input:focus{
+            color: blue;
+            /* padding-left: 25px; */
+            outline: 0;
+            border: 1px solid purple;
+        }
+        a:visited{
+            color: greenyellow;
+        }
+
+        /* li:last-child{
+            color: red;
+        } */
+
+        /* li:first-child{
+            background-color: aqua;
+        } */
+
+        /* li:nth-child(2n){
+            color:purple
+        } */
+        li:nth-child(2n+1){
+            color:purple
+        }
+        /* li:nth-child(3n+1){
+            color:purple
+        } */
+    </style>
+</head>
+<body>
+    <h3>My heading</h3>
+    <input type="text" placeholder="Name"><br>
+    <input type="text" placeholder="Name"><br>
+    <input type="text" placeholder="Name"><br>
+    <input type="text" placeholder="Name"><br>
+
+    <a href="https://www.google.com/">Guglee</a>
+    <a href="https://www.britannica.com/place/Madagascar"> Madagascar</a>
+
+    <ul>
+        <li>Alia</li>
+        <li>Maliya</li>
+        <li>Dalia</li>
+        <li>kalia</li>
+        <li>lalia</li>
+        <li>jaaliya</li>
+        <li>Mohaksdfb</li>
+    </ul>
+</body>
+</html>
