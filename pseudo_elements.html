@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseduo_Elements</title>
+    <style>
+        h3::after {
+            content: '.pdf';
+            color: aqua;
+            font-size: 10px;
+            background-color: yellow;
+        }
+
+        h3::before {
+            content: 'start: ';
+
+            color: rgb(0, 148, 148);
+            font-size: 10px;
+            background-color: rgb(173, 173, 108);
+        }
+        p::first-letter{
+            font-size: 2em;
+
+        }
+        p::first-line{
+            background-color: antiquewhite;
+        }
+        ::selection{
+            background-color: rgb(132, 196, 226);
+        }
+        input::placeholder{
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Heading-1</h3>
+    <h3>Heading-2</h3>
+    <h3>Heading-3</h3>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At corporis maxime libero laborum accusamus, iste neque aliquam totam sit omnis!</p>
+    <p>Accusamus sapiente autem illum quibusdam adipisci reiciendis suscipit consectetur porro quasi iusto? Ipsa necessitatibus non placeat deleniti quisquam iste reprehenderit.</p>
+    <p>Repudiandae sapiente enim labore quas facere. Praesentium consequatur ex harum voluptates ipsam aliquid. Veniam unde voluptas atque aut asperiores inventore.</p>
+</body>
+
+</html>
